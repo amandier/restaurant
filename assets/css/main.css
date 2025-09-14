@@ -1661,7 +1661,7 @@ section,
 .menu-item .menu-img {
   height: 250px;       /* hauteur identique pour toutes les images */
   object-fit: cover;   /* recadrage automatique sans déformation */
-  width: 75%;         /* conserve le responsive de Bootstrap */
+  width: 250px;         /* conserve le responsive de Bootstrap */
   display: block;      /* supprime les petits espaces en dessous */
   border-radius: 8px;  /* optionnel : coins arrondis pour un style sympa */
 }
