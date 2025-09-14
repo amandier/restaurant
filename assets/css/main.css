@@ -1656,8 +1656,9 @@ section,
 }
 
 .menu-img {
-  width: 100%;       /* l'image prend toute la largeur du conteneur */
-  height: 250px;     /* hauteur fixe pour toutes les images */
-  object-fit: cover; /* ajuste l'image pour remplir la zone sans la déformer */
-  border-radius: 10px; /* optionnel : coins arrondis */
+  width: 100%;         /* occupe toute la largeur de la colonne */
+  height: 250px;       /* hauteur fixe pour toutes les images */
+  object-fit: cover;   /* garde le ratio et remplit le cadre */
+  border-radius: 10px; /* arrondir un peu les coins si tu veux */
 }
+
