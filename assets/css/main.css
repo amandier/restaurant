@@ -1655,10 +1655,14 @@ section,
   /* Add your styles here */
 }
 
-.menu-img {
-  width: 100%;         /* occupe toute la largeur de la colonne */
-  height: 250px;       /* hauteur fixe pour toutes les images */
-  object-fit: cover;   /* garde le ratio et remplit le cadre */
-  border-radius: 10px; /* arrondir un peu les coins si tu veux */
+
+
+/* Uniformiser toutes les images du menu */
+.menu-item .menu-img {
+  height: 250px;       /* hauteur identique pour toutes les images */
+  object-fit: cover;   /* recadrage automatique sans déformation */
+  width: 100%;         /* conserve le responsive de Bootstrap */
+  display: block;      /* supprime les petits espaces en dessous */
+  border-radius: 8px;  /* optionnel : coins arrondis pour un style sympa */
 }
 
