@@ -1,1 +1,9 @@
+# Empêche l'accès direct aux fichiers sensibles
+<FilesMatch "config\.php">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Désactive l'affichage du contenu du dossier
+Options -Indexes
 
